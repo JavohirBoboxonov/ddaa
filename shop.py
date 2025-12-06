@@ -95,7 +95,8 @@ class Shop:
                         break
                     else:
                         print("Invalid Choice")
-            print("ID topilmadi")
+            else:
+                print("ID topilmadi")
     @property
     def view_company_balance(self):
         return self.__balance
